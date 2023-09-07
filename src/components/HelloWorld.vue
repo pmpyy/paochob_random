@@ -61,7 +61,7 @@ export default {
     <div>
       <h1 >เป่ายิ๊ง...ฉุบ</h1>
       <div class="row-center">
-        <img v-if="!playing" src="src/img/rockpaper.png" alt="Rock Paper" class="img_cover" /><br>
+        <img v-if="!playing" src="https://freesvg.org/img/rock-paper-scissors.png" alt="Rock Paper" class="img_cover" /><br>
         <div class="row">
           <div class="col -center">
             <button @click="playGame" :disabled="gameOver" class="btn btn-outline-success" style="height: 60px;" >เริ่มเล่น</button>
